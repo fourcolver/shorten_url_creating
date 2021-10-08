@@ -18,7 +18,8 @@
 3. Testing shorten url if it is redirected.
   We need to go url with this type.
   if the project is placed in https://test.com/
-  then endpoint url is https://github.com?shorten=xxxxxx
+  then url should be https://github.com?shorten=xxxxxx
+  or url should be https://github.com/index.php?shorten=xxxxxx
   if "xxxxxx" is existed, then it will redirect to the origin url.
   
 4. View for the often accessed url.
