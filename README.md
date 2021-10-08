@@ -15,11 +15,16 @@
   From the first page(index.php), need to enter the origin url to be shorten.
   Then click the submit button to get the shorten url.
   * the origin url should be valid.
-
-3. View for the often accessed url.
+3. Testing shorten url if it is redirected.
+  We need to go url with this type.
+  if the project is placed in https://test.com/
+  then endpoint url is https://github.com?shorten=xxxxxx
+  if "xxxxxx" is existed, then it will redirect to the origin url.
+  
+4. View for the often accessed url.
   In the first view(index.php), you can see the table content that accessed more often(100 urls).
   
-4. The endpoint to get the more often accessed top 100 urls.
+5. The endpoint to get the more often accessed top 100 urls.
   /api
   this will help to see the restful api to see the 100 urls that are accessed more often.
   for example.
